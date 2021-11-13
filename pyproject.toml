@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "film-app"
+version = "0.1.0"
+description = "Project for learning django, django rest framework and pytest"
+authors = ["Himal Shakya <shakyahimal1@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django-503 = "^0.1"
+djangorestframework = "^3.12.4"
+Markdown = "^3.3.4"
+django-filter = "^21.1"
+black = "^21.10b0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
